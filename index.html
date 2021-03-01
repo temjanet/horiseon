@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+<!--head element placed on top for logical HTML structure-->
 <head>
     <meta charset="UTF-8" />
+    <!-- added meta tags required to function with accessabilies -->
+    <meta name="description" content="This is a website created for the HTML and CSS challenges" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="SEO, Search Engine Optimization, Social Solution" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Horiseon</title>
 </head>
 
+<!-- header element starts here placed inside the body element -->
 <body>
+    <!-- added header tag to properly navigate accesibility -->
+    <header>
     <div class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
@@ -24,9 +32,14 @@
             </ul>
         </div>
     </div>
+    </header>
+    <!-- added main tag to properly navigate accessibility also placed inside the body tag -->
+    <main>
     <div class="hero"></div>
     <div class="content">
+        <!-- added class property to div so href link is fully functional -->
         <div id="search-engine-optimization" class="search-engine-optimization">
+            <!-- added alt property for accessibility -->
             <img src="./assets/images/search-engine-optimization.jpg" alt="Laptop, notebook, pens and a cup of coffee on the wooden table" class="float-left"/>
             <h2>Search Engine Optimization</h2>
             <p>
@@ -34,6 +47,7 @@
             </p>
         </div>
         <div id="online-reputation-management" class="online-reputation-management">
+            <!-- added alt property for accessibility -->
             <img src="./assets/images/online-reputation-management.jpg" alt="Laptop viewing reputation with a graph below it" class="float-right"/>
             <h2>Online Reputation Management</h2>
             <p>
@@ -41,6 +55,7 @@
             </p>
         </div>
         <div id="social-media-marketing" class="social-media-marketing">
+            <!-- added alt property for accessibility -->
             <img src="./assets/images/social-media-marketing.jpg" alt="6 people around the table with a bunch of social media idea content" class="float-left"/>
             <h2>Social Media Marketing</h2>
             <p>
@@ -51,6 +66,7 @@
     <div class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
+            <!-- added alt property for accessibility -->
             <img src="./assets/images/lead-generation.png" alt="black icon, half a gear, arrow pointing down ontop of the dollar sign"/>
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
@@ -58,6 +74,7 @@
         </div>
         <div class="benefit-brand">
             <h3>Brand Awareness</h3>
+            <!-- added alt property for accessibility -->
             <img src="./assets/images/brand-awareness.png" alt="black icon, light bulb with signals and a tie"/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
@@ -65,18 +82,25 @@
         </div>
         <div class="benefit-cost">
             <h3>Cost Management</h3>
+            <!-- added alt property for accessibility -->
             <img src="./assets/images/cost-management.png" alt="black icon, three dollar signs ontop of a gear"/>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
+    </main>
+    <!-- closed main tag -->
     </div>
+    <!-- added footer to properly naviagte accessibility and placed before the closing body tag -->
+    <footer>
     <div class="footer">
+        <!-- changed tag to h4 so html fall in a proper order -->
         <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
     </div>
+    </footer>
 </body>
-
+<!-- body tag is closed before the html tag -->
 </html>
